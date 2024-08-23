@@ -1,0 +1,4 @@
+/dataset/banana/*
+/dataset/not_banana/*
+.DS_STORE
+/storage/*
