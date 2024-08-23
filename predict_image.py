@@ -18,4 +18,4 @@ def predict_image(img_path, model):
     else:
         return "No match."
 
-predict_image('/Users/arda/Downloads/images-2.jpeg', 'fruit_classifer.keras')
+print(predict_image('/Users/arda/Downloads/images-2.jpeg', 'fruit_classifer.keras'))
