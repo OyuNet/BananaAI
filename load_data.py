@@ -9,7 +9,7 @@ train_dataset = image_dataset_from_directory(
     subset="training",
     seed=123,
     image_size=(180, 180),
-    batch_size=32,
+    batch_size=8,
     class_names=['Apple', 'Banana', 'Carambola', 'Guava', 'Kiwi', 'Mango', 'Orange', 'Peach', 'Pear', 'Persimmon', 'Pitaya', 'Plum', 'Pomegranate', 'Tomatoes', 'Muskmelon']
 )
 
@@ -19,7 +19,7 @@ validation_dataset = image_dataset_from_directory(
     subset="validation",
     seed=123,
     image_size=(180, 180),
-    batch_size=32,
+    batch_size=8,
     class_names=['Apple', 'Banana', 'Carambola', 'Guava', 'Kiwi', 'Mango', 'Orange', 'Peach', 'Pear', 'Persimmon', 'Pitaya', 'Plum', 'Pomegranate', 'Tomatoes', 'Muskmelon']
 )
 
