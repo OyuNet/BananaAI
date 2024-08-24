@@ -9,8 +9,8 @@ train_dataset = image_dataset_from_directory(
     subset="training",
     seed=123,
     image_size=(180, 180),
-    batch_size=16,
-    class_names=['Apple', 'Banana', 'Carambola', 'Guava', 'Kiwi', 'Mango', 'Orange', 'Peach', 'Pear', 'Persimmon', 'Pitaya', 'Plum', 'Pomegranate', 'Tomatoes', 'Muskmelon']
+    batch_size=64,
+    class_names=['Apple', 'Banana', 'Carambola', 'Guava', 'Kiwi', 'Mango', 'Orange', 'Peach', 'Pear', 'Persimmon', 'Pitaya', 'Plum', 'Pomegranate', 'Tomatoes', 'Muskmelon', 'Strawberry']
 )
 
 validation_dataset = image_dataset_from_directory(
@@ -19,8 +19,8 @@ validation_dataset = image_dataset_from_directory(
     subset="validation",
     seed=123,
     image_size=(180, 180),
-    batch_size=16,
-    class_names=['Apple', 'Banana', 'Carambola', 'Guava', 'Kiwi', 'Mango', 'Orange', 'Peach', 'Pear', 'Persimmon', 'Pitaya', 'Plum', 'Pomegranate', 'Tomatoes', 'Muskmelon']
+    batch_size=64,
+    class_names=['Apple', 'Banana', 'Carambola', 'Guava', 'Kiwi', 'Mango', 'Orange', 'Peach', 'Pear', 'Persimmon', 'Pitaya', 'Plum', 'Pomegranate', 'Tomatoes', 'Muskmelon', 'Strawberry']
 )
 
 AUTOTUNE = tf.data.AUTOTUNE
